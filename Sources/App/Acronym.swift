@@ -19,6 +19,6 @@ final class Acronym: Codable {
 //    public static var idKey: IDKey = \Acronym.id
 //}
 
-extension Acronym: FluentPostgreSQL {}
+extension Acronym: PostgreSQLModel {}
 extension Acronym: Migration {}
 extension Acronym: Content {}
